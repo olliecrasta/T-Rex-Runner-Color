@@ -38,6 +38,7 @@ function preload(){
 }
 
 function setup() {
+  pixelDensity(0.3);
   createCanvas(windowWidth, windowHeight);
   
   sun = createSprite(width-50,100,10,10);
